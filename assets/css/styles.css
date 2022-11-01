@@ -2,6 +2,7 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 /* -- -- Fuentes -- -- */
@@ -33,9 +34,44 @@ header{
 }
 /* -- -- NAV -- --*/
 header nav{
+    background-color: rgba(255, 255, 255, .1);
     width: 100%;
 }
 
 header nav .contenedor{
     display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+header nav .contenedor .logo{
+    width: 25%;
+    color: #00A9FF;
+}
+
+header nav .contenedor .logo p{
+    padding: 20px 0;
+}
+
+header nav .contenedor .menu{
+    width: 75%;
+    justify-content: space-between;
+    text-align: end;
+}
+
+header nav .contenedor .menu a{
+    color: #fff;
+    text-decoration: none;
+    padding: 8px 16px;
+    margin-right: 16px;
+}
+
+header nav .contenedor .menu a:last-child{
+    margin-right: 0;
+}
+
+header nav .contenedor .menu a:hover{
+    background-color: #00A9FF;
+    border-radius: 8px;
 }
