@@ -102,6 +102,7 @@ header .contenedor .contenedor-planetas .planeta .nombre a:hover{
 
 /* -- -- NAV -- --*/
 header nav{
+    position: fixed;
     background-color: rgba(255, 255, 255, .1);
     width: 100%;
 }
