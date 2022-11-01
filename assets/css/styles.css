@@ -11,3 +11,10 @@
     font-weight: normal;
     font-style: normal;
 }
+
+/* -- -- Variables -- -- */
+.contenedor{
+    width: 90%;
+    max-width: 1920px;
+    margin: 0 auto ;
+}
