@@ -1,4 +1,13 @@
+/* -- -- Preformateando -- -- */
 *{
     margin: 0;
     padding: 0;
+}
+
+/* -- -- Fuentes -- -- */
+@font-face {
+    font-family: "orbitron";
+    src: url(../fonts/orbitron/Orbitron-Regular.ttf);
+    font-weight: normal;
+    font-style: normal;
 }
