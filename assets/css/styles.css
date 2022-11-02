@@ -386,3 +386,80 @@ header nav .contenedor .menu a:hover{
     border-radius: 8px;
     margin-top: 0;
 }
+
+/* -- -- marte -- -- */
+#marte{
+    width: 100%;
+    background-image: url(../img/bg-espacio.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#marte .contenedor{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#marte .contenedor .planeta{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+#marte .contenedor .planeta .imagen{
+    width: 50%;
+}
+
+#marte .contenedor .planeta .imagen img{
+    width: 100%;
+    margin: 210px 0;
+}
+
+#marte .contenedor .caja-peso{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#marte .contenedor .caja-peso .contenido{
+    width: 90%;
+    text-align: center;
+    background-color: rgba(255, 255, 255, .25);
+    border-radius: 8px;
+}
+
+#marte .contenedor .caja-peso .contenido p{
+    margin: 40px 0;
+}
+
+#marte .contenedor .caja-peso .contenido form input, #marte .contenedor .caja-peso .contenido form button{
+    width: 20%;
+    background-color: transparent;
+    border: 4px solid #00A9FF;
+    border-radius: 8px;
+    text-align: center;
+}
+
+#marte .contenedor .caja-peso .contenido form button{
+    cursor: pointer;
+}
+
+#marte .contenedor .caja-peso .contenido p span{
+    color: #F04729;
+}
+
+#marte .contenedor .caja-peso .contenido .resultado{
+    display: flex;
+    justify-content: center;
+}
+
+#marte .contenedor .caja-peso .contenido .resultado .texto-grande{
+    width: fit-content;
+    color: #fff;
+    background-color: #00A9FF;
+    padding: 8px 16px;
+    border-radius: 8px;
+    margin-top: 0;
+}
