@@ -170,17 +170,17 @@ header nav .contenedor .menu a:hover{
     align-items: center;
 }
 
-#mercurio .contenedor .mercurio{
+#mercurio .contenedor .planeta{
     width: 50%;
     display: flex;
     justify-content: center;
 }
 
-#mercurio .contenedor .mercurio .imagen{
+#mercurio .contenedor .planeta .imagen{
     width: 50%;
 }
 
-#mercurio .contenedor .mercurio .imagen img{
+#mercurio .contenedor .planeta .imagen img{
     width: 100%;
     margin: 210px 0;
 }
