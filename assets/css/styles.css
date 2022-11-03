@@ -75,6 +75,7 @@ header .contenedor .contenedor-planetas{
     width: 100%;
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
 }
@@ -136,15 +137,17 @@ header nav .contenedor .logo p{
 
 header nav .contenedor .menu{
     width: 75%;
+    display: flex;
+    flex-direction: row;
     justify-content: space-between;
     text-align: end;
+    flex-wrap: wrap;
 }
 
 header nav .contenedor .menu a{
     color: #fff;
     text-decoration: none;
     padding: 8px 16px;
-    margin-right: 16px;
 }
 
 header nav .contenedor .menu a:last-child{
@@ -283,4 +286,64 @@ footer .contenedor a i{
 footer .contenedor a i:hover{
     border: 4px solid #fff;
     border-radius: 8px;
+}
+
+/* -- -- Media Queries -- -- */
+@media screen and (max-width: 816px) {
+    /* -- Variables -- */
+    .texto-mediano{
+        font-family: orbitron;
+        font-size: 16px;
+    }
+    
+    .texto-grande{
+        font-family: orbitron;
+        font-size: 32px;
+    }
+
+    /* -- Menu -- */
+    header nav{
+        background-color: #000;
+    }
+
+    header nav .contenedor .logo{
+        width: 100%;
+        text-align: center;
+    }
+
+    header nav .contenedor .menu{
+        width: 100%;
+        text-align: center;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    /* -- Header -- */
+    header .contenedor .titulo-header{
+        margin: 160px 0 80px 0;
+    }
+
+    header .contenedor .contenedor-planetas .planeta{
+        width: 40%;
+    }
+
+    /* -- Seccion Planeta -- */
+    .seccion-planeta .contenedor{
+        flex-wrap: wrap;
+    }
+
+    .seccion-planeta .contenedor .planeta{
+        width: 100%;
+    }
+
+    .seccion-planeta .contenedor .planeta .imagen img{
+        margin: 160px 0 80px 0;
+    }
+
+    .seccion-planeta .contenedor .caja-peso{
+        width: 100%;
+        margin-bottom: 80px;
+    }
 }
